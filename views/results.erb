@@ -1,0 +1,10 @@
+<h3>Your results!</h3>
+<p><%= "Index: #{@index}" %></p>
+<p><%= "Score: #{@score}" %></p>
+<p><%= if @index==0
+          "No tweets were found!"
+        else
+          "Example tweet: #{@example[:text]}"
+        end%></p>
+<p><%= @text %></p>
+<a href="/">Go back to the game!</a>
